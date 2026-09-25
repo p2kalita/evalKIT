@@ -1,0 +1,21 @@
+[
+  {
+    "input": "What is the capital of France?",
+    "expected": "Paris",
+    "tags": ["geography", "easy"]
+  },
+  {
+    "input": "Explain quantum entanglement in one sentence.",
+    "expected": "Quantum entanglement is a phenomenon where two particles become correlated such that the quantum state of one instantly influences the other regardless of distance.",
+    "tags": ["physics", "hard"]
+  },
+  {
+    "input": "Summarize the following text: 'The quick brown fox jumps over the lazy dog.'",
+    "expected": null,
+    "tags": ["summarization"],
+    "metadata": {
+      "source": "pangram",
+      "difficulty": "trivial"
+    }
+  }
+]

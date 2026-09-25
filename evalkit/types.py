@@ -36,6 +36,15 @@ class EvalResult:
     latency_ms: float = 0.0
     error: str | None = None
 
+
+@dataclass
+class EvalReport:
+    """Aggregated report of an evaluation run."""
+
+    name: str
+    results: list[EvalResult]
+    total: int = 0
+    passed: int = 0
     failed: int = 0
     pass_rate: float = 0.0
     avg_scores: dict[str, float] = field(default_factory=dict)
@@ -65,3 +74,4 @@ class EvalResult:
             )
 
         return "\n".join(lines)
+
