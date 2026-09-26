@@ -1,0 +1,18 @@
+{
+  "Generation and summarization": [
+    {
+      "input": "Summarize: The Federal Reserve raised interest rates by 25 basis points on Wednesday, citing persistent inflation concerns. This marks the tenth consecutive rate hike.",
+      "expected": "The Fed raised rates by 0.25% due to inflation, continuing a streak of ten consecutive hikes.",
+      "tags": ["summarization", "finance"],
+      "metadata": {
+        "required_facts": [
+          "rate increase",
+          "25 basis points",
+          "inflation",
+          "tenth consecutive"
+        ],
+        "max_length": 100
+      }
+    }
+  ]
+}

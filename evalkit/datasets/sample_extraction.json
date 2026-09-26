@@ -1,0 +1,12 @@
+{
+  "Extraction": [
+    {
+      "input": "John Smith works at Acme Corp in New York since 2019.",
+      "expected": "{\"name\": \"John Smith\", \"company\": \"Acme Corp\", \"location\": \"New York\", \"year\": 2019}",
+      "tags": ["entity_extraction", "structured"],
+      "metadata": {
+        "entities_count": 4
+      }
+    }
+  ]
+}
